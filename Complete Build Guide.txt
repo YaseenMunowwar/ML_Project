@@ -1,0 +1,21 @@
+Complete Guide
+
+Create Git repo
+Create conda env
+ - conda create -p venv python==3.8
+create readme.md
+Commit to github
+create .gitignore
+commit
+
+Create requirements.txt
+ - Run setup.py automatically with requirements.txt (-e .)
+
+Create src 
+ - Create __init__.py
+create setup.py
+ - Enter metadata
+ - Connect with requirements.txt
+
+
+ 
