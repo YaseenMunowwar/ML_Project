@@ -1,5 +1,7 @@
 Complete Guide
 
+Tut 1
+
 Create Git repo
 Create conda env
  - conda create -p venv python==3.8
@@ -18,4 +20,12 @@ create setup.py
  - Connect with requirements.txt
 
 
- 
+Summary - Create github repo, requirements.txt, setup.py, src folder 
+
+
+
+TUT 2
+
+Create src - __init__.py, utils, logger, exception
+   - components folder - __init__.py, ingestion, data_transformation, model_trainer
+   - pipeline - train_pipeline, predict_pipeline
