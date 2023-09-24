@@ -5,6 +5,7 @@ Tut 1
 Create Git repo
 Create conda env
  - conda create -p venv python==3.8
+ conda activate venv/
 create readme.md
 Commit to github
 create .gitignore
@@ -29,3 +30,25 @@ TUT 2
 Create src - __init__.py, utils, logger, exception
    - components folder - __init__.py, ingestion, data_transformation, model_trainer
    - pipeline - train_pipeline, predict_pipeline
+
+Create the logger and exception
+
+TUT 3
+
+ipynb files for EDA and model Training
+
+
+TUT 4
+
+Modular programming for EDA and model Training
+
+Create DataIngestion.py
+   create a class to to read and store train, test and raw data_transformation
+   Create artifacts dir path to store data
+
+   Create the data path
+   Read the df from the path
+   Store df to raw data
+   train_test_split. 
+   store train and test data in separate paths
+   return train data path and test data path
