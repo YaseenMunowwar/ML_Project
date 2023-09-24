@@ -52,3 +52,8 @@ Create DataIngestion.py
    train_test_split. 
    store train and test data in separate paths
    return train data path and test data path
+
+   Finally an artifacts dir is created. 
+   raw, train and test datasets are created.
+   train and test data path are returned.
+   log files is initiated with proper wordings
