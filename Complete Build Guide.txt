@@ -57,3 +57,11 @@ Create DataIngestion.py
    raw, train and test datasets are created.
    train and test data path are returned.
    log files is initiated with proper wordings
+
+
+   TUT 5
+
+    import Data class - to write class variables
+    Column transformer - To align the columns after preprocessing
+    onehotencoder - To convert categorical values to numeric
+    Standard scalar - To standardize numerical data  
